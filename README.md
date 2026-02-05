@@ -1,69 +1,52 @@
-# Usage Attribution — Reference
+Usage Attribution — Reference Specification
 
-This repository provides a **versioned reference specification**
-for **usage attribution semantics** in machine-to-machine and system-to-system environments.
+Usage attribution is the process by which machine activity is unambiguously attributed to a responsible subject, context, or control domain within an automated system.
 
-Usage attribution describes how **measurable activity**
-is deterministically linked to an **accountable entity**,
-independent of billing, settlement, or payment execution.
+In AI systems, usage attribution establishes who or what is accountable for resource consumption, actions, or outcomes. It is distinct from billing, pricing, or commercial settlement.
 
----
+Versioned reference specifications for usage attribution semantics.
+Non-commercial. Source-linked. Decision-oriented.
 
-## Purpose
+Purpose
 
-The purpose of this repository is to establish **shared semantic boundaries**
-for attributing usage prior to any billing or settlement logic.
+This repository provides a structured reference specification for usage attribution in AI-driven and distributed systems.
 
-It supports:
-- reproducible attribution outcomes,
-- auditability across system boundaries,
-- and interoperability between independent implementations.
+Usage attribution defines how machine actions, resource consumption, or inference events are assigned to identifiable entities such as users, organisations, agents, workflows, or API credentials.
 
----
+The purpose is to enable auditability, accountability, and interoperability across autonomous and multi-actor systems.
 
-## What This Repository Is
+What This Repository Is
 
-- A **reference layer** for usage attribution semantics
-- A **non-commercial**, non-vendor specification
-- A **machine-readable** and versioned documentation set
+This repository is:
 
----
+– a semantic reference for attribution boundaries and attribution subjects  
+– a non-commercial, non-vendor specification  
+– a machine-readable and versioned documentation set  
 
-## What This Repository Is Not
+What This Repository Is Not
 
-This repository does **not**:
-- define billing or settlement rules,
-- provide pricing or payment services,
-- prescribe architectures or tools,
-- certify systems or implementations,
-- offer legal or regulatory guidance.
+This repository does not:
 
----
+– perform metering or billing  
+– define pricing or cost models  
+– implement enforcement or access control  
+– provide legal or regulatory judgement  
 
-## Structure
+Repository Structure
 
-- `SCOPE.md` — Explicit scope boundaries
-- `SOURCES.md` — Stable primary references
-- `MODEL.md` — Conceptual reference model
-- `MAPS/` — Semantic mappings
-- `CHANGELOG.md` — Version history
+SCOPE.md        Attribution boundaries and exclusions  
+SOURCES.md      Canonical source references  
+MODEL.md        Attribution model and entities  
+MAPS/           Attribution mappings  
+CHANGELOG.md   Version history  
 
----
+Status
 
-## Status
-
-Public reference repository.  
+Public reference repository.
 Low change frequency by design.
 
----
+License and Use
 
-## Contact
-
-Technical inquiries: **publisher@rightsofrobots.com**
-
----
-
-## License & Use
-
-Content is provided for reference and integration purposes.
+Content is provided for reference and system integration purposes only.
 No warranties or guarantees are implied.
+
