@@ -1,0 +1,19 @@
+# UsageAttribution.com
+
+Independent reference project on usage attribution, provenance, and transparent reuse of digital information.
+
+## Canonical Resource
+
+- [Home](https://usageattribution.com/)
+
+## Main Sections
+
+- [Sources](https://usageattribution.com/sources/)
+
+## Purpose
+
+UsageAttribution.com provides an independent reference on usage attribution, provenance, citation structures, and transparent attribution across digital information systems.
+
+## Repository
+
+- [Usage Attribution Reference Repository](https://github.com/reference-infrastructure/usageattribution-reference)
